@@ -70,4 +70,7 @@ public sealed class Wave : MonoBehaviour
 
     void Update()
       => UpdateVertices(Time.time);
+
+    void OnDestroy()
+      => Destroy(_mesh);
 }
