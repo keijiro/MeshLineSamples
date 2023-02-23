@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "com.unity.render-pipelines.universal": "12.1.10",
-    "jp.keijiro.metawire": "1.4.0"
+    "jp.keijiro.metawire": "1.4.0",
+    "jp.keijiro.vfxgraphassets": "1.2.0"
   },
   "scopedRegistries": [
     {
