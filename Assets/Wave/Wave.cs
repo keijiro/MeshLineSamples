@@ -55,9 +55,9 @@ public sealed class Wave : MonoBehaviour
 
         // Column lines
         index = 0;
-        for (var row = 0; row < N - 1; row++)
+        for (var column = 0; column < N; column++)
         {
-            for (var column = 0; column < N; column++)
+            for (var row = 0; row < N - 1; row++)
             {
                 indices.Add(index);
                 indices.Add(index + N);
