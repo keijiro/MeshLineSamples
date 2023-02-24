@@ -22,7 +22,7 @@ public sealed class Wave2 : MonoBehaviour
                 var x = math.remap(0, N - 1, -1, 1, column);
 
                 var d = Mathf.Sqrt(x * x + z * z);
-                var y = Mathf.Sin(d * 10 - t * 3) * 0.05f;
+                var y = Mathf.Sin(d * 10 - t * Mathf.PI) * 0.05f;
 
                 _vertices.Add(new Vector3(x, y, z));
             }
