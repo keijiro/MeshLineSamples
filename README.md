@@ -3,12 +3,11 @@
 This repository contains samples for a Unity tutorial video showing how to
 draw lines using the Mesh class.
 
-YouTube URL: (TBA)
+YouTube Link: https://www.youtube.com/watch?v=fv5OqLD3lEY
 
 ### Triangle
 
 ![Triangle](https://user-images.githubusercontent.com/343936/221339950-72cd5dbb-c4f1-4cc2-9396-c321747c17b1.png)
-
 
 The simplest example of mesh construction with scripting.
 

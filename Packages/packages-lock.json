@@ -17,7 +17,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.recorder": {
-      "version": "4.0.0-pre.5",
+      "version": "4.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -82,67 +82,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.unity.visualeffectgraph": {
-      "version": "12.1.10",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.shadergraph": "12.1.10",
-        "com.unity.render-pipelines.core": "12.1.10"
-      }
-    },
-    "jp.keijiro.klak.motion": {
-      "version": "1.0.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.metamesh": {
-      "version": "1.1.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.metawire": {
-      "version": "1.4.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.noiseshader": {
-      "version": "2.0.0",
-      "depth": 2,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.shadergraphassets": {
-      "version": "2.5.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.shadergraph": "12.1.0",
-        "jp.keijiro.noiseshader": "2.0.0"
-      },
-      "url": "https://registry.npmjs.com"
-    },
-    "jp.keijiro.vfxgraphassets": {
-      "version": "1.2.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.visualeffectgraph": "12.1.8",
-        "jp.keijiro.shadergraphassets": "2.5.2"
-      },
-      "url": "https://registry.npmjs.com"
     },
     "com.unity.modules.animation": {
       "version": "1.0.0",
