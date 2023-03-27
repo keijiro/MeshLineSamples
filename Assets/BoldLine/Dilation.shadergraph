@@ -658,7 +658,7 @@
     "m_SourceType": 1,
     "m_FunctionName": "DilationSum",
     "m_FunctionSource": "",
-    "m_FunctionBody": "Output = (Input1 + Input2 + Input3 + Input4 + Input5) / 5;"
+    "m_FunctionBody": "Output = max(max(max(max(Input1, Input2), Input3), Input4), Input5);"
 }
 
 {
